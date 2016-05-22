@@ -1,5 +1,15 @@
 #Learning Data
 
+##MapReduce
+
+It is a programming model to perform parallel processing on large data sets.
+
+A basic MapReduce algorithm consists of the following steps
+
+1. Map: Transform each item into `key-value` pairs
+2. Collect all the pairs with identical `keys`
+3. Reduce the collected pairs to produce a collection of `values` for the corresponding single `key`
+
 ##Spark with Python and Flask
 
 * $Python -V
